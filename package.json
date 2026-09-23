@@ -1,0 +1,52 @@
+{
+  "name": "quick-alert",
+  "version": "2.0.0",
+  "description": "Framework-agnostic alert, toast, and notification API for Angular, React, Vue, plain JavaScript, and SSR-safe apps.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://subha-patra.github.io/quick-alert/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subha-patra/quick-alert"
+  },
+  "bugs": {
+    "url": "https://github.com/subha-patra/quick-alert/issues"
+  },
+  "keywords": [
+    "quick-alert",
+    "alert",
+    "toast",
+    "modal",
+    "popup",
+    "notification",
+    "javascript",
+    "typescript",
+    "angular",
+    "react",
+    "vue",
+    "ssr safe",
+    "angular toast",
+    "angular alert",
+    "react toast",
+    "vue toast",
+    "lightweight alert",
+    "custom alert",
+    "alert component",
+    "alert library"
+  ],
+  "sideEffects": false,
+  "module": "fesm2022/quick-alert.mjs",
+  "typings": "types/quick-alert.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./types/quick-alert.d.ts",
+      "default": "./fesm2022/quick-alert.mjs"
+    }
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
